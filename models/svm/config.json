@@ -1,0 +1,13 @@
+{
+  "model_name": "Support Vector Machine (SVM)",
+  "type": "Comparative Margin-Based Classifier",
+  "kernel": "rbf",
+  "best_params": {
+    "C": 2.0,
+    "gamma": 0.02,
+    "class_weight": "balanced"
+  },
+  "validation_fall_f1": 0.9668508287292817,
+  "fit_time_seconds": 3.969484806060791,
+  "n_features": 24
+}

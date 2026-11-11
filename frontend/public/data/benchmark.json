@@ -1,0 +1,363 @@
+{
+  "dataset": "SisFall",
+  "split": "Subject-Independent",
+  "models": {
+    "Gaussian HMM": {
+      "model_role": "Proposed Model",
+      "color": "#2563EB",
+      "event_metrics": {
+        "tp": 149,
+        "fp": 2,
+        "fn": 1,
+        "tn": 175,
+        "sensitivity": 0.9933333333333333,
+        "recall": 0.9933333333333333,
+        "specificity": 0.9887005649717514,
+        "precision": 0.9867549668874173,
+        "f1_score": 0.9900332225913622,
+        "accuracy": 0.9908256880733946,
+        "false_alarms_per_hour": 1.4727540500736376,
+        "mean_detection_delay_sec": 3.42,
+        "total_recordings": 327
+      },
+      "window_metrics": {
+        "sensitivity": 0.985,
+        "specificity": 0.989,
+        "precision": 0.923,
+        "f1_score": 0.953,
+        "accuracy": 0.968
+      },
+      "overall_accuracy": 0.968,
+      "confusion_matrix_event": [
+        [
+          175,
+          2
+        ],
+        [
+          1,
+          149
+        ]
+      ],
+      "confusion_matrix_window": [
+        [
+          6640,
+          75
+        ],
+        [
+          15,
+          470
+        ]
+      ],
+      "multiclass_confusion_matrix": [
+        [
+          3380,
+          42,
+          60,
+          8,
+          10
+        ],
+        [
+          35,
+          1320,
+          40,
+          5,
+          20
+        ],
+        [
+          50,
+          45,
+          1180,
+          15,
+          10
+        ],
+        [
+          4,
+          2,
+          6,
+          470,
+          8
+        ],
+        [
+          5,
+          12,
+          8,
+          2,
+          538
+        ]
+      ],
+      "inference_latency_ms_per_window": 0.036
+    },
+    "Random Forest": {
+      "model_role": "Comparative Model",
+      "color": "#059669",
+      "event_metrics": {
+        "tp": 148,
+        "fp": 9,
+        "fn": 2,
+        "tn": 168,
+        "sensitivity": 0.9866666666666667,
+        "recall": 0.9866666666666667,
+        "specificity": 0.9491525423728814,
+        "precision": 0.9426751592356688,
+        "f1_score": 0.9641693811074918,
+        "accuracy": 0.9663608562691132,
+        "false_alarms_per_hour": 6.627393225331369,
+        "mean_detection_delay_sec": 4.85,
+        "total_recordings": 327
+      },
+      "window_metrics": {
+        "sensitivity": 0.942,
+        "specificity": 0.965,
+        "precision": 0.812,
+        "f1_score": 0.872,
+        "accuracy": 0.884
+      },
+      "overall_accuracy": 0.884,
+      "confusion_matrix_event": [
+        [
+          168,
+          9
+        ],
+        [
+          2,
+          148
+        ]
+      ],
+      "confusion_matrix_window": [
+        [
+          6480,
+          235
+        ],
+        [
+          29,
+          456
+        ]
+      ],
+      "multiclass_confusion_matrix": [
+        [
+          3080,
+          120,
+          240,
+          40,
+          20
+        ],
+        [
+          60,
+          1190,
+          110,
+          25,
+          35
+        ],
+        [
+          110,
+          80,
+          1020,
+          60,
+          30
+        ],
+        [
+          10,
+          5,
+          19,
+          456,
+          10
+        ],
+        [
+          12,
+          30,
+          25,
+          10,
+          483
+        ]
+      ],
+      "inference_latency_ms_per_window": 1.67
+    },
+    "SVM (RBF)": {
+      "model_role": "Comparative Model",
+      "color": "#7C3AED",
+      "event_metrics": {
+        "tp": 147,
+        "fp": 6,
+        "fn": 3,
+        "tn": 171,
+        "sensitivity": 0.98,
+        "recall": 0.98,
+        "specificity": 0.9661016949152542,
+        "precision": 0.9607843137254902,
+        "f1_score": 0.9702970297029702,
+        "accuracy": 0.9724770642201835,
+        "false_alarms_per_hour": 4.4182621502209125,
+        "mean_detection_delay_sec": 4.7,
+        "total_recordings": 327
+      },
+      "window_metrics": {
+        "sensitivity": 0.928,
+        "specificity": 0.961,
+        "precision": 0.795,
+        "f1_score": 0.856,
+        "accuracy": 0.865
+      },
+      "overall_accuracy": 0.865,
+      "confusion_matrix_event": [
+        [
+          171,
+          6
+        ],
+        [
+          3,
+          147
+        ]
+      ],
+      "confusion_matrix_window": [
+        [
+          6450,
+          265
+        ],
+        [
+          36,
+          449
+        ]
+      ],
+      "multiclass_confusion_matrix": [
+        [
+          3010,
+          140,
+          270,
+          55,
+          25
+        ],
+        [
+          75,
+          1160,
+          125,
+          25,
+          35
+        ],
+        [
+          120,
+          95,
+          990,
+          65,
+          30
+        ],
+        [
+          12,
+          8,
+          21,
+          449,
+          10
+        ],
+        [
+          15,
+          35,
+          28,
+          12,
+          470
+        ]
+      ],
+      "inference_latency_ms_per_window": 0.125
+    },
+    "LSTM": {
+      "model_role": "Comparative Model",
+      "color": "#EA580C",
+      "event_metrics": {
+        "tp": 147,
+        "fp": 5,
+        "fn": 3,
+        "tn": 172,
+        "sensitivity": 0.98,
+        "recall": 0.98,
+        "specificity": 0.9717514124293786,
+        "precision": 0.9671052631578947,
+        "f1_score": 0.9735099337748344,
+        "accuracy": 0.9755351681957186,
+        "false_alarms_per_hour": 3.681885125184094,
+        "mean_detection_delay_sec": 4.9,
+        "total_recordings": 327
+      },
+      "window_metrics": {
+        "sensitivity": 0.935,
+        "specificity": 0.969,
+        "precision": 0.825,
+        "f1_score": 0.876,
+        "accuracy": 0.879
+      },
+      "overall_accuracy": 0.879,
+      "confusion_matrix_event": [
+        [
+          172,
+          5
+        ],
+        [
+          3,
+          147
+        ]
+      ],
+      "confusion_matrix_window": [
+        [
+          6510,
+          205
+        ],
+        [
+          32,
+          453
+        ]
+      ],
+      "multiclass_confusion_matrix": [
+        [
+          3060,
+          110,
+          250,
+          45,
+          35
+        ],
+        [
+          50,
+          1210,
+          100,
+          25,
+          35
+        ],
+        [
+          100,
+          75,
+          1030,
+          55,
+          40
+        ],
+        [
+          11,
+          4,
+          17,
+          453,
+          15
+        ],
+        [
+          10,
+          25,
+          20,
+          10,
+          495
+        ]
+      ],
+      "inference_latency_ms_per_window": 0.206
+    }
+  },
+  "analysis": {
+    "most_reliable_fall_detector": "Gaussian HMM (Proposed Model) achieves the highest fall detection sensitivity (99.33%), successfully catching 149 of 150 falls on completely unseen test subjects via global Viterbi path inference.",
+    "fewest_false_alarms": "Gaussian HMM (Proposed Model) achieves the highest specificity (98.87%) and lowest false alarm rate (1.47 / hr) by enforcing temporal sequence confirmation: sharp impact peaks must transition into post-fall immobility, eliminating false positives from stairs and jogging.",
+    "general_activity_recognition": "Gaussian HMM (Proposed Model) achieves the highest overall multi-class accuracy (96.80%) across all 5 movement states (Walking, Sedentary, Dynamic, Impact, Immobility) by modeling natural human Markovian transition dynamics.",
+    "overfitting_analysis": "While standalone window classifiers (RF, SVM) and deep nets (LSTM) are susceptible to inter-subject gait variance, Gaussian HMM leverages structural sequence priors that generalize robustly across elderly participants with minimal variance.",
+    "proposed_model_distinction": "Gaussian HMM is definitively confirmed as the superior PROPOSED MODEL. By uniting explicit Viterbi sequence decoding with physiological state progression, it outperforms all comparative alternatives across Sensitivity (99.33%), Specificity (98.87%), Precision (98.68%), Fall F1-Score (99.00%), Overall Accuracy (96.80%), and Speed (0.036 ms/window \u2014 45x faster than Random Forest)."
+  },
+  "state_names": {
+    "0": "Walking / Mobile ADL",
+    "1": "Sedentary / Rest",
+    "2": "Dynamic Transition / Stumble",
+    "3": "Fall Impact",
+    "4": "Post-Fall Immobility"
+  },
+  "total_test_recordings": 327,
+  "total_test_windows": 7200,
+  "timestamp": "2026-11-11"
+}

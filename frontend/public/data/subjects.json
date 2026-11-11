@@ -1,0 +1,344 @@
+[
+  {
+    "id": "SA01",
+    "group": "Adult",
+    "age": 26,
+    "height": 165,
+    "weight": 53.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SA02",
+    "group": "Adult",
+    "age": 23,
+    "height": 176,
+    "weight": 58.5,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SA03",
+    "group": "Adult",
+    "age": 19,
+    "height": 156,
+    "weight": 48.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SA04",
+    "group": "Adult",
+    "age": 23,
+    "height": 170,
+    "weight": 72.0,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SA05",
+    "group": "Adult",
+    "age": 22,
+    "height": 172,
+    "weight": 69.5,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SA06",
+    "group": "Adult",
+    "age": 21,
+    "height": 169,
+    "weight": 58.0,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SA07",
+    "group": "Adult",
+    "age": 21,
+    "height": 156,
+    "weight": 63.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SA08",
+    "group": "Adult",
+    "age": 21,
+    "height": 149,
+    "weight": 41.5,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SA09",
+    "group": "Adult",
+    "age": 24,
+    "height": 165,
+    "weight": 64.0,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SA10",
+    "group": "Adult",
+    "age": 21,
+    "height": 177,
+    "weight": 67.0,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SA11",
+    "group": "Adult",
+    "age": 19,
+    "height": 170,
+    "weight": 80.5,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SA12",
+    "group": "Adult",
+    "age": 25,
+    "height": 153,
+    "weight": 47.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SA13",
+    "group": "Adult",
+    "age": 22,
+    "height": 157,
+    "weight": 55.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SA14",
+    "group": "Adult",
+    "age": 27,
+    "height": 160,
+    "weight": 46.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SA15",
+    "group": "Adult",
+    "age": 25,
+    "height": 160,
+    "weight": 52.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SA16",
+    "group": "Adult",
+    "age": 20,
+    "height": 169,
+    "weight": 61.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SA17",
+    "group": "Adult",
+    "age": 23,
+    "height": 182,
+    "weight": 75.0,
+    "gender": "M",
+    "split": "Validation"
+  },
+  {
+    "id": "SA18",
+    "group": "Adult",
+    "age": 23,
+    "height": 181,
+    "weight": 73.0,
+    "gender": "M",
+    "split": "Validation"
+  },
+  {
+    "id": "SA19",
+    "group": "Adult",
+    "age": 30,
+    "height": 170,
+    "weight": 76.0,
+    "gender": "M",
+    "split": "Validation"
+  },
+  {
+    "id": "SA20",
+    "group": "Adult",
+    "age": 30,
+    "height": 150,
+    "weight": 42.0,
+    "gender": "F",
+    "split": "Held-Out Test"
+  },
+  {
+    "id": "SA21",
+    "group": "Adult",
+    "age": 30,
+    "height": 183,
+    "weight": 68.0,
+    "gender": "M",
+    "split": "Held-Out Test"
+  },
+  {
+    "id": "SA22",
+    "group": "Adult",
+    "age": 19,
+    "height": 158,
+    "weight": 50.5,
+    "gender": "F",
+    "split": "Held-Out Test"
+  },
+  {
+    "id": "SA23",
+    "group": "Adult",
+    "age": 24,
+    "height": 156,
+    "weight": 48.0,
+    "gender": "F",
+    "split": "Held-Out Test"
+  },
+  {
+    "id": "SE01",
+    "group": "Elderly",
+    "age": 71,
+    "height": 171,
+    "weight": 102.0,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SE02",
+    "group": "Elderly",
+    "age": 75,
+    "height": 150,
+    "weight": 57.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SE03",
+    "group": "Elderly",
+    "age": 62,
+    "height": 150,
+    "weight": 51.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SE04",
+    "group": "Elderly",
+    "age": 63,
+    "height": 160,
+    "weight": 59.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SE05",
+    "group": "Elderly",
+    "age": 63,
+    "height": 165,
+    "weight": 72.0,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SE06",
+    "group": "Elderly",
+    "age": 60,
+    "height": 163,
+    "weight": 79.0,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SE07",
+    "group": "Elderly",
+    "age": 65,
+    "height": 168,
+    "weight": 76.0,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SE08",
+    "group": "Elderly",
+    "age": 68,
+    "height": 163,
+    "weight": 72.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SE09",
+    "group": "Elderly",
+    "age": 66,
+    "height": 167,
+    "weight": 65.0,
+    "gender": "M",
+    "split": "Training"
+  },
+  {
+    "id": "SE10",
+    "group": "Elderly",
+    "age": 64,
+    "height": 156,
+    "weight": 66.0,
+    "gender": "F",
+    "split": "Training"
+  },
+  {
+    "id": "SE11",
+    "group": "Elderly",
+    "age": 66,
+    "height": 169,
+    "weight": 63.0,
+    "gender": "F",
+    "split": "Validation"
+  },
+  {
+    "id": "SE12",
+    "group": "Elderly",
+    "age": 69,
+    "height": 164,
+    "weight": 56.5,
+    "gender": "M",
+    "split": "Validation"
+  },
+  {
+    "id": "SE13",
+    "group": "Elderly",
+    "age": 65,
+    "height": 171,
+    "weight": 72.5,
+    "gender": "M",
+    "split": "Held-Out Test"
+  },
+  {
+    "id": "SE14",
+    "group": "Elderly",
+    "age": 67,
+    "height": 163,
+    "weight": 58.0,
+    "gender": "M",
+    "split": "Held-Out Test"
+  },
+  {
+    "id": "SE15",
+    "group": "Elderly",
+    "age": 64,
+    "height": 150,
+    "weight": 50.0,
+    "gender": "F",
+    "split": "Held-Out Test"
+  }
+]

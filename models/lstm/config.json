@@ -1,0 +1,11 @@
+{
+  "model_name": "Long Short-Term Memory (LSTM)",
+  "type": "Comparative Deep Sequence Network",
+  "input_dim": 6,
+  "hidden_dim": 64,
+  "num_layers": 2,
+  "bidirectional": true,
+  "dropout": 0.3,
+  "best_val_fall_f1": 0.9753424657534246,
+  "train_time_seconds": 185.2181475162506
+}
